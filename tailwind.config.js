@@ -7,6 +7,10 @@ module.exports = {
     extend: {
       animation: {},
       keyframes: {},
+      fontFamily: {
+        title: ["'TJW Title', sans-serif"],
+        "title-light": ["'TJW Title Light', sans-serif"],
+      },
     },
   },
   variants: {

@@ -2,3 +2,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ./src/styles/global.css */
+@font-face {
+  font-family: "TJW Title";
+  src: url("tjw-title.woff2") format("woff2"), url("tjw-title.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TJW Title Light";
+  src: url("tjw-title-light.woff2") format("woff2"), url("tjw-title-light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
