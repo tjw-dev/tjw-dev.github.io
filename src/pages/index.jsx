@@ -20,6 +20,7 @@ const SocialIcons = () => {
 
   return (
     <div className="flex font-normal leading-none align-middle text-center text-black dark:text-white sm:text-3xl md:text-5xl text-1xl transition-none">
+      {/* }
       <a href="https://twitter.com/thejustinwalsh" className="flex-grow">
         <FontAwesomeIcon
           className="transform transition-transform duration-200 hover:scale-125"
@@ -30,7 +31,8 @@ const SocialIcons = () => {
         />
         <span className="hidden">Twitter</span>
       </a>
-      <a href="https://github.com/thejustinwalsh" className="flex-grow">
+      */}
+      <a href="https://github.com/tjw-dev" className="flex-grow">
         <FontAwesomeIcon
           className="transform transition-transform duration-200 hover:scale-125"
           icon={faGithub}
@@ -40,6 +42,7 @@ const SocialIcons = () => {
         />
         <span className="hidden">Github</span>
       </a>
+      {/* }
       <a href="https://www.linkedin.com/in/justinwalsh/" className="flex-grow">
         <FontAwesomeIcon
           className="transform transition-transform duration-200 hover:scale-125"
@@ -50,7 +53,8 @@ const SocialIcons = () => {
         />
         <span className="hidden">LinkedIn</span>
       </a>
-      <a href="https://discordapp.com/channels/@me/223220721143382017/" className="flex-grow">
+      */}
+      <a href="https://discord.gg/SzxMh6GjS8" className="flex-grow">
         <FontAwesomeIcon
           className="transform transition-transform duration-200 hover:scale-125"
           icon={faDiscord}
@@ -71,7 +75,7 @@ const IndexPage = () => (
       <div className="flex">
         <div className="px-6 text-left">
           <Greeting className="sm:text-7xl md:text-8xl text-4xl md:text-left text-center">
-            Justin Walsh
+            tjw.DEV
           </Greeting>
           <SocialIcons />
         </div>

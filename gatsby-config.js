@@ -4,7 +4,7 @@ const postcssNested = require("postcss-nested")
 
 module.exports = {
   siteMetadata: {
-    title: `thejustinwalsh`,
+    title: `tjw.DEV`,
     description: `Minimal maintnance landing page for some kind of web presence built with <a href="https://www.gatsbyjs.com/">Gatsby</a>, <a href="https://github.com/4Catalyzer/astroturf">Astroturf</a>, and <a href="https://tailwindcss.com/">Tailwind</a>.`,
     author: `@thejustinwalsh`,
   },
@@ -23,13 +23,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `thejustinwalsh`,
-        short_name: `tjw`,
+        name: `tjw.DEV LLC`,
+        short_name: `tjw.DEV`,
         start_url: `/`,
         background_color: `#FFFFFF`,
         theme_color: `#FFFFFF`,
         display: `minimal-ui`,
-        icon: `src/images/tjw-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.ico`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-typescript`,

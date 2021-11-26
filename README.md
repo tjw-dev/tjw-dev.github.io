@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://thejustinwalsh.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+    <img alt="tjw.DEV logo" src="src/images/favicon.ico" width="60" />
   </a>
 </p>
 <h1 align="center">
