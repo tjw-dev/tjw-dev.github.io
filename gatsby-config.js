@@ -7,6 +7,7 @@ module.exports = {
     title: `tjw.DEV`,
     description: `Minimal maintnance landing page for some kind of web presence built with <a href="https://www.gatsbyjs.com/">Gatsby</a>, <a href="https://github.com/4Catalyzer/astroturf">Astroturf</a>, and <a href="https://tailwindcss.com/">Tailwind</a>.`,
     author: `@thejustinwalsh`,
+    image: `og-image.png`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

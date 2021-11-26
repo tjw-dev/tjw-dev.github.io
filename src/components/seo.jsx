@@ -19,6 +19,7 @@ function SEO({ description, lang, meta, title }) {
             title
             description
             author
+            image
           }
         }
       }
@@ -27,6 +28,7 @@ function SEO({ description, lang, meta, title }) {
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
+  const defaultImage = site.siteMetadata?.image
 
   return (
     <Helmet
@@ -41,6 +43,10 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
+          name: `image`,
+          content: defaultImage,
+        },
+        {
           property: `og:title`,
           content: title,
         },
@@ -51,6 +57,10 @@ function SEO({ description, lang, meta, title }) {
         {
           property: `og:type`,
           content: `website`,
+        },
+        {
+          property: `og:image`,
+          content: defaultImage,
         },
         {
           name: `twitter:card`,
@@ -68,10 +78,12 @@ function SEO({ description, lang, meta, title }) {
           name: `twitter:description`,
           content: metaDescription,
         },
+        {
+          property: `twitter:image`,
+          content: defaultImage,
+        },
       ].concat(meta)}
-    >
-      <meta name="monetization" content="$ilp.uphold.com/hGqBNJM932UJ" />
-    </Helmet>
+    />
   )
 }
 
