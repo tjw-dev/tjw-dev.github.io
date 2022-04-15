@@ -7,7 +7,6 @@ const withOffline = require('next-offline')
 
 const nextConfig = {
   webpack(config, { isServer }) {
-
     // audio support
     config.module.rules.push({
       test: /\.(ogg|mp3|wav|mpe?g)$/i,
@@ -36,14 +35,6 @@ const nextConfig = {
 
     return config
   },
-}
-
-// manage i18n
-if (process.env.EXPORT !== 'true') {
-  nextConfig.i18n = {
-    locales: ['en-US'],
-    defaultLocale: 'en-US',
-  }
 }
 
 module.exports = plugins(

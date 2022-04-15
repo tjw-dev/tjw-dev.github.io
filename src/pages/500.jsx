@@ -1,9 +1,10 @@
 import { extend } from '@react-three/fiber'
 import { FontLoader } from 'three/examples/jsm/loaders/FontLoader'
 import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry'
-import AristaSubset from '@/fonts/subset.json'
+import AristaSubset from '../fonts/subset.json'
 import { Title } from '@/components/dom/Title'
 import { Link } from '@/components/dom/Link'
+import { faHome } from '@fortawesome/free-solid-svg-icons'
 
 function DOM() {
   return (
