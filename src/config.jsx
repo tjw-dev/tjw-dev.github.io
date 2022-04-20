@@ -65,9 +65,9 @@ const Header = ({ title = titleDefault }) => {
         <meta name="HandheldFriendly" content="true"/>  */}
         <meta
           name='viewport'
-          content='width=device-width, minimum-scale=1, initial-scale=1.0'
+          content='width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, viewport-fit=cover'
         />
-        <meta name='theme-color' content='#000' />
+        <meta name='theme-color' content='#fdbb2d' />
         <link rel='shortcut icon' href='/icons/favicon.ico' />
 
         {/* 
